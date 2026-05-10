@@ -497,3 +497,46 @@ height: 25px;
     filter: drop-shadow(0px 20px 15px rgba(0,0,0,0.4) );
 
 }
+/* Contato */
+.Contato {
+    padding: 60px 0;
+    background: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+}
+
+.Contato h2 {
+    font-size: var(--font-size-xl);
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+}
+
+.lista-info-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info-contato {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: var(--font-size-m);
+}
+
+.info-contato i {
+    font-size: var(--font-size-l);
+    color: var(--secondary-color);
+}
+
+
+
+
+
+
+
+
+
+

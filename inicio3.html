@@ -167,6 +167,61 @@
     </div>
   </div>
 </section>
+
+<section class="avaliacoes">
+    <h2>Avalie sua experiência</h2>
+    <div class="avaliacao-container">
+        <button onclick="votar('muitoBom')">Muito Bom</button>
+        <button onclick="votar('bom')">Bom</button>
+        <button onclick="votar('regular')">Regular</button>
+        <button onclick="votar('ruim')">Ruim</button>
+        <button onclick="votar('muitoRuim')">Muito Ruim</button>
+    </div>
+
+    <div class="resultado">
+        <div class="linha">
+            <span>Muito Bom</span>
+            <div class="barra">
+                <div id="muitoBomBar"></div>
+            </div>
+            <p id="muitoBomTexto">0%</p>
+        </div>
+
+        <div class="linha">
+            <span>Bom</span>
+            <div class="barra">
+                <div id="bomBar"></div>
+            </div>
+            <p id="bomTexto">0%</p>
+        </div>
+
+        <div class="linha">
+            <span>Regular</span>
+            <div class="barra">
+                <div id="regularBar"></div>
+            </div>
+            <p id="regularTexto">0%</p>
+        </div>
+
+        <div class="linha">
+            <span>Ruim</span>
+            <div class="barra">
+                <div id="ruimBar"></div>
+            </div>
+            <p id="ruimTexto">0%</p>
+        </div>
+
+        <div class="linha">
+            <span>Muito Ruim</span>
+            <div class="barra">
+                <div id="muitoRuimBar"></div>
+            </div>
+            <p id="muitoRuimTexto">0%</p>
+        </div>
+
+    </div>
+</section>
+
 <section class="Contato">
         <h2 class="Contato">Entre em contato</h2>
         <div class="section-content">
